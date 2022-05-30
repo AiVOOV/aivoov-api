@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "90d1c398-6c85-47a0-9b40-6e8684a25991",
+		"name": "AiVOOV API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "12709ebd-d416-4275-b021-1500f16395ff",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://aivoov.com/api/v1/status",
+					"protocol": "https",
+					"host": [
+						"aivoov",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Voices",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"type": "text",
+						"value": "12709ebd-d416-4275-b021-1500f16395ff"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://aivoov.com/api/v1/voices?provider=google",
+					"protocol": "https",
+					"host": [
+						"aivoov",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"voices"
+					],
+					"query": [
+						{
+							"key": "provider",
+							"value": "google"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"type": "text",
+						"value": "12709ebd-d416-4275-b021-1500f16395ff"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "voice_id",
+							"value": "bn-IN-{{engine}}-B",
+							"type": "text"
+						},
+						{
+							"key": "transcribe_text[]",
+							"value": "Add your text here",
+							"type": "text"
+						},
+						{
+							"key": "engine",
+							"value": "nural",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "API",
+							"type": "text"
+						},
+						{
+							"key": "transcribe_ssml_style",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "transcribe_ssml_spk_rate",
+							"value": " default",
+							"type": "text"
+						},
+						{
+							"key": "transcribe_ssml_volume",
+							"value": " default",
+							"type": "text"
+						},
+						{
+							"key": "transcribe_ssml_pitch_rate",
+							"value": " default",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://aivoov.com/api/v1/convert",
+					"protocol": "https",
+					"host": [
+						"aivoov",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"convert"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
