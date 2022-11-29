@@ -51,7 +51,7 @@ Use this endpoint to start converting an article from text to audio.
     "voice_id": string,
     "transcribe_text": string[],  
     "engine": string,
-    "title": string,  // Optional
+    "title": string,
     "transcribe_ssml_style": string[], // Optional         
     "transcribe_ssml_spk_rate": string[],    // Optional      
     "transcribe_ssml_volume": string[], // Optional
