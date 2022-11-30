@@ -39,7 +39,7 @@ To access your credentials, make sure you're logged-in to your aivoov.com accoun
 
 ### Convert
 
-- Endpoint:  `./convert`
+- Endpoint:  `./transcribe`
 
 Use this endpoint to start converting an article from text to audio.
 
@@ -81,10 +81,11 @@ Use this endpoint to start converting an article from text to audio.
   {
     "status": "true" | "false",
     "message": string,
-    "transcribe_uri": string
+    "transcribe_data": string
   }
   ```
- 
+`You get a transcribe_data parameter with  base64encode content.
+Simply you need to use base64decode to retrieve your content and write your file in file-name.mp3 format.`
 
 ### Voices List
 
