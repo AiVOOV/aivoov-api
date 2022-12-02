@@ -63,7 +63,7 @@ Use this endpoint to start converting an article from text to audio.
    
   `transcribe_text` is an array of strings, where each string represents a paragraph in plain text format OR valid SSML format.
   
-  `engine` Select the preferences of the engine from the Voice Response. There are two type of engine supported  `neural2()`, `neural` and `standard`
+  `engine` Select the preferences of the engine from the Voice Response. There are two type of engine supported  `neural2`, `neural` and `standard`
    
   `title` is a field to name your file. You can use this name to find the audio in your aivoov.com dashboard.
   
