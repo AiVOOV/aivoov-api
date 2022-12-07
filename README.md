@@ -51,7 +51,7 @@ Use this endpoint to start converting an article from text to audio.
     "voice_id": string,
     "transcribe_text": string[],  
     "engine": string,
-    "title": string,
+    "title": string, // Optional         
     "transcribe_ssml_style": string[], // Optional         
     "transcribe_ssml_spk_rate": string[],    // Optional      
     "transcribe_ssml_volume": string[], // Optional
@@ -63,9 +63,7 @@ Use this endpoint to start converting an article from text to audio.
    
   `transcribe_text` is an array of strings, where each string represents a paragraph in plain text format OR valid SSML format.
   
-  `engine` Select the preferences of the engine from the Voice Response. There are two type of engine supported  `neural2`, `neural` and `standard`
-   
-  `title` is a field to name your file. You can use this name to find the audio in your aivoov.com dashboard.
+  `engine` Select the preferences of the engine from the Voice Response. There are two type of engine supported  `neural2`, `neural` and `standard` 
   
   `transcribe_ssml_style` is a string representing the tone and accent of the voice to read the text. Make sure the value for `transcribe_ssml_style` is supported by the voice in your request. You will get the `style_list` form the `voices` api response. 
 
