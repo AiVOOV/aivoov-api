@@ -15,7 +15,7 @@ Take a look at the [Voice List page](https://aivoov.com/voices) to see a list of
 ## Overview of API
 
 There are two endpoints on the API that you will use to convert text to speech:
-1. `/convert`: Performs the text-to-speech conversion.
+1. `/transcribe`: Performs the text-to-speech conversion.
 2. `/voices`: List of all voice provided by aivoov.com.
 
 The two endpoints have been described in detail below.
