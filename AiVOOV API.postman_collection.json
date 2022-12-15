@@ -2,7 +2,8 @@
 	"info": {
 		"_postman_id": "90d1c398-6c85-47a0-9b40-6e8684a25991",
 		"name": "AiVOOV API",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5434397"
 	},
 	"item": [
 		{
@@ -12,7 +13,7 @@
 				"header": [
 					{
 						"key": "X-API-KEY",
-						"value": "12709ebd-d416-4275-b021-1500f16395ff",
+						"value": "",
 						"type": "text"
 					}
 				],
@@ -46,7 +47,7 @@
 					{
 						"key": "X-API-KEY",
 						"type": "text",
-						"value": "12709ebd-d416-4275-b021-1500f16395ff"
+						"value": ""
 					}
 				],
 				"body": {
@@ -88,56 +89,56 @@
 					{
 						"key": "X-API-KEY",
 						"type": "text",
-						"value": "12709ebd-d416-4275-b021-1500f16395ff"
+						"value": ""
 					}
 				],
 				"body": {
 					"mode": "formdata",
 					"formdata": [
 						{
+							"key": "title",
+							"value": "AUDIO_HELLO_MEDIA_B",
+							"type": "text"
+						},
+						{
 							"key": "voice_id",
-							"value": "bn-IN-{{engine}}-B",
+							"value": "en-US-AIGenerate1Neural",
 							"type": "text"
 						},
 						{
 							"key": "transcribe_text[]",
-							"value": "Add your text here",
+							"value": " <emphasis level=\"strong\">To be</emphasis>",
 							"type": "text"
 						},
 						{
 							"key": "engine",
-							"value": "neural",
+							"value": "neural2",
 							"type": "text"
 						},
 						{
-							"key": "title",
-							"value": "API",
-							"type": "text"
-						},
-						{
-							"key": "transcribe_ssml_style",
+							"key": "transcribe_ssml_style[]",
 							"value": "",
 							"type": "text"
 						},
 						{
-							"key": "transcribe_ssml_spk_rate",
-							"value": " default",
+							"key": "transcribe_ssml_spk_rate[]",
+							"value": "",
 							"type": "text"
 						},
 						{
-							"key": "transcribe_ssml_volume",
-							"value": " default",
+							"key": "transcribe_ssml_volume[]",
+							"value": "",
 							"type": "text"
 						},
 						{
-							"key": "transcribe_ssml_pitch_rate",
-							"value": " default",
+							"key": "transcribe_ssml_pitch_rate[]",
+							"value": "",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "https://aivoov.com/api/v1/convert",
+					"raw": "https://aivoov.com/api/v1/transcribe",
 					"protocol": "https",
 					"host": [
 						"aivoov",
@@ -146,7 +147,7 @@
 					"path": [
 						"api",
 						"v1",
-						"convert"
+						"transcribe"
 					]
 				}
 			},
