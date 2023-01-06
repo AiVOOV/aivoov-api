@@ -128,4 +128,67 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
   ```
 **Note:**  This endpoint api daily call limit is 20. So you can store the all voices in your database and use as your requirement.
 
+ ## Example
  
+ ###jQuery
+
+	```
+	const formData = new FormData()
+	formData.append('voice_id', 'pl-PL-{{engine}}-D')
+	formData.append('transcribe_text[]', 'Opowiem Ci historię')
+	formData.append('engine', 'neural')
+
+	const options = {
+	method: "POST",
+	headers: { 
+		"X-API-KEY": `YOUR API KEY`,
+	},
+	body: formData,
+	};
+	const response =   fetch("https://aivoov.com/api/v1/transcribe",options).then((res) => res.json());
+	console.log({ response });
+	```
+
+ ###NodeJs
+ 
+	```
+	var request = require('request');
+	var options = {
+	  'method': 'POST',
+	  'url': 'https://aivoov.com/api/v1/transcribe',
+	  'headers': {
+	    'X-API-KEY': '`YOUR API KEY`',
+	  },
+	  formData: {
+	    'voice_id': 'pl-PL-{{engine}}-D',
+	    'transcribe_text[]': 'Opowiem Ci historię',
+	    'engine': 'neural'
+	  }
+	};
+	request(options, function (error, response) {
+	  if (error) throw new Error(error);
+	  console.log(response.body);
+	});
+	``` 
+###PHP cURL
+
+	```
+	$data['transcribe_text[]'] = "Opowiem Ci historię."; 
+	$data['voice_id'] = "pl-PL-{{engine}}-D"; 
+	$data['engine'] = "neural";  
+
+	$ch = curl_init(); 
+	curl_setopt($ch, CURLOPT_URL,'https://aivoov.com/api/v1/transcribe');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS,$data);  //Post Fields
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$headers = [  
+		'X-API-KEY: `YOUR API KEY`',
+		'Content-Type: multipart/form-data'
+	];
+	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+	$server_output = curl_exec ($ch);
+	curl_close ($ch);
+	$server_output = json_decode($server_output);   
+	```
+	
