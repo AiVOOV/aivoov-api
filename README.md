@@ -130,7 +130,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 
  ## Example
  
- ###jQuery
+### jQuery
 
 	```
 	const formData = new FormData()
@@ -149,7 +149,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	console.log({ response });
 	```
 
- ###NodeJs
+ ### NodeJs
  
 	```
 	var request = require('request');
@@ -170,7 +170,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	  console.log(response.body);
 	});
 	``` 
-###PHP cURL
+### PHP cURL
 
 	```
 	$data['transcribe_text[]'] = "Opowiem Ci historię."; 
