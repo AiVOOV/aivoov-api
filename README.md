@@ -132,8 +132,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
  
 ### jQuery
 
-	```
-	
+	```jsonc
 	const formData = new FormData()
 	formData.append('voice_id', 'pl-PL-{{engine}}-D')
 	formData.append('transcribe_text[]', 'Opowiem Ci historię')
@@ -153,7 +152,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 
  ### NodeJs
  
-	```
+	```jsonc
 	
 	var request = require('request');
 	var options = {
@@ -176,7 +175,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	``` 
 ### PHP cURL
 
-	```
+	```jsonc
 	
 	$data['transcribe_text[]'] = "Opowiem Ci historię."; 
 	$data['voice_id'] = "pl-PL-{{engine}}-D"; 
