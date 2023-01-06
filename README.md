@@ -141,7 +141,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	const options = {
 	method: "POST",
 	headers: { 
-		"X-API-KEY": `YOUR API KEY`,
+		"X-API-KEY": YOUR API KEY,
 	},
 	body: formData,
 	};
@@ -157,7 +157,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	  'method': 'POST',
 	  'url': 'https://aivoov.com/api/v1/transcribe',
 	  'headers': {
-	    'X-API-KEY': '`YOUR API KEY`',
+	    'X-API-KEY': 'YOUR API KEY',
 	  },
 	  formData: {
 	    'voice_id': 'pl-PL-{{engine}}-D',
@@ -183,7 +183,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	curl_setopt($ch, CURLOPT_POSTFIELDS,$data);  //Post Fields
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$headers = [  
-		'X-API-KEY: `YOUR API KEY`',
+		'X-API-KEY: YOUR API KEY',
 		'Content-Type: multipart/form-data'
 	];
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
