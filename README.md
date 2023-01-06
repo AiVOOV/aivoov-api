@@ -130,9 +130,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 
  ## Example
  
-### jQuery
-
-	```jsonc
+### jQuery 
 	const formData = new FormData()
 	formData.append('voice_id', 'pl-PL-{{engine}}-D')
 	formData.append('transcribe_text[]', 'Opowiem Ci historię')
@@ -147,13 +145,10 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	};
 	const response =   fetch("https://aivoov.com/api/v1/transcribe",options).then((res) => res.json());
 	console.log({ response });
-	
-	```
-
+	 
  ### NodeJs
  
-	```jsonc
-	
+		
 	var request = require('request');
 	var options = {
 	  'method': 'POST',
@@ -172,10 +167,8 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	  console.log(response.body);
 	});
 	
-	``` 
 ### PHP cURL
 
-	```jsonc
 	
 	$data['transcribe_text[]'] = "Opowiem Ci historię."; 
 	$data['voice_id'] = "pl-PL-{{engine}}-D"; 
@@ -195,5 +188,4 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 	curl_close ($ch);
 	$server_output = json_decode($server_output);   
 	
-	```
 	
