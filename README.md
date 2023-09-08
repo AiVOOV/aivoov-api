@@ -61,7 +61,7 @@ Use this endpoint to start converting an article from text to audio.
 
   `voice_id` is the ID of the voice used to synthesize the text. Refer to the [Voice List page](https://aivoov.com/voices) for more details.
    
-  `transcribe_text` is an array of strings, where each string represents a paragraph in plain text format OR valid SSML format.
+  `transcribe_text[]` is an array of strings, where each string represents a paragraph in plain text format OR valid SSML format.
   
   `engine` Select the preferences of the engine from the Voice Response. There are three type of engine supported  `neural2`, `neural` and `standard` 
   
