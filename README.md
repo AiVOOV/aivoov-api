@@ -128,6 +128,14 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
   ```
 **Note:**  This endpoint api daily call limit is 20. So you can store the all voices in your database and use as your requirement.
 
+## Rate Limits
+
+We limit the rate of our APIs to prevent abuse. The specific limits are based on the API you are using.
+
+**Summary of the limits**
+Endpoint `v1/transcribe` Max Requests per Minute (RPM) `75`
+All GET endpoints `100`
+
  ## Example
  
 ### jQuery 
