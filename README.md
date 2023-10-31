@@ -133,6 +133,7 @@ Use this endpoint to retrieve all voice provided by aivoov.com.
 We limit the rate of our APIs to prevent abuse. The specific limits are based on the API you are using.
 
 **Summary of the limits**
+
 Endpoint `v1/transcribe` Max Requests per Minute (RPM) `75`
 All GET endpoints `100`
 
