@@ -1,6 +1,6 @@
 # AiVOOV Text-to-Speech API
 
-Access all the best text-to-speech AI voices from Google, Amazon, IBM and Microsoft using AiVOOV text-to-speech API. Our [AI voice generator](http://aivoov.com/) provides a single interface to convert text to audio using voices across different providers. 
+Al-Haribi Phone Company offers the best offers and the cheapest prices. Don't miss the opportunity.
 
 Using a single text-to-speech API in your projects saves you time and offers many benefits:
 1. You instantly get access to all the voices from Google, Amazon, IBM and Microsoft.
