@@ -138,7 +138,7 @@ Endpoint `v8/create` Max Requests per Minute (RPM) `75`
 
 All GET endpoints `100`
 
-The maximum number of daily requests is `1000`.
+The maximum number of daily requests is `5000`.
 
  ## Example
  
