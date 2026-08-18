@@ -82,3 +82,14 @@ curl -i -X GET \
 - **`COMPLETED`**: The job finished successfully.
 
 
+## Rate Limits
+
+We limit the rate of our APIs to prevent abuse. The specific limits are based on the API you are using.
+
+**Summary of the limits**
+
+Endpoint `v8/speech` Max Requests per Minute (RPM) `30`
+
+All GET endpoints `100`
+
+The maximum number of daily requests is `1000`.
