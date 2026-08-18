@@ -93,3 +93,123 @@ Endpoint `v8/speech` Max Requests per Minute (RPM) `30`
 All GET endpoints `100`
 
 The maximum number of daily requests is `1000`.
+
+
+## Supported languages
+
+| **Language**            | **Language code** |
+| ----------------------- | ----------------- |
+| Abkhaz                  | ab-GE             |
+| Afrikaans               | af-ZA             |
+| Albanian                | sq-AL             |
+| Amharic                 | am-ET             |
+| Arabic, Gulf            | ar-AE             |
+| Arabic, Modern Standard | ar-SA             |
+| Armenian                | hy-AM             |
+| Asturian                | ast-ES            |
+| Azerbaijani             | az-AZ             |
+| Bashkir                 | ba-RU             |
+| Basque                  | eu-ES             |
+| Belarusian              | be-BY             |
+| Bengali                 | bn-IN             |
+| Bosnian                 | bs-BA             |
+| Burmese                 | my-MM             |
+| Bulgarian               | bg-BG             |
+| Catalan                 | ca-ES             |
+| Central Kurdish, Iran   | ckb-IR            |
+| Central Kurdish, Iraq   | ckb-IQ            |
+| Chinese, Cantonese      | zh-HK (yue-HK)    |
+| Chinese, Simplified     | zh-CN             |
+| Chinese, Traditional    | zh-TW             |
+| Croatian                | hr-HR             |
+| Czech                   | cs-CZ             |
+| Danish                  | da-DK             |
+| Dutch                   | nl-NL             |
+| English, Australian     | en-AU             |
+| English, British        | en-GB             |
+| English, Indian         | en-IN             |
+| English, Irish          | en-IE             |
+| English, New Zealand    | en-NZ             |
+| English, Scottish       | en-AB             |
+| English, South African  | en-ZA             |
+| English, US             | en-US             |
+| English, Welsh          | en-WL             |
+| Estonian                | et-EE             |
+| Estonian                | et-ET             |
+| Farsi                   | fa-IR             |
+| Farsi, Afghan           | fa-AF             |
+| Finnish                 | fi-FI             |
+| French                  | fr-FR             |
+| French, Canadian        | fr-CA             |
+| Galician                | gl-ES             |
+| Georgian                | ka-GE             |
+| German                  | de-DE             |
+| German, Swiss           | de-CH             |
+| Greek                   | el-GR             |
+| Gujarati                | gu-IN             |
+| Haitian Creole          | ht-HT             |
+| Hausa                   | ha-NG             |
+| Hebrew                  | he-IL             |
+| Hindi, Indian           | hi-IN             |
+| Hungarian               | hu-HU             |
+| Icelandic               | is-IS             |
+| Indonesian              | id-ID             |
+| Italian                 | it-IT             |
+| Japanese                | ja-JP             |
+| Javanese                | jv-ID             |
+| Kabyle                  | kab-DZ            |
+| Kannada                 | kn-IN             |
+| Kazakh                  | kk-KZ             |
+| Khmer                   | km-KH             |
+| Kinyarwanda             | rw-RW             |
+| Korean                  | ko-KR             |
+| Kyrgyz                  | ky-KG             |
+| Latvian                 | lv-LV             |
+| Lithuanian              | lt-LT             |
+| Luganda                 | lg-IN             |
+| Macedonian              | mk-MK             |
+| Malay                   | ms-MY             |
+| Malayalam               | ml-IN             |
+| Maltese                 | mt-MT             |
+| Marathi                 | mr-IN             |
+| Meadow Mari             | mhr-RU            |
+| Mongolian               | mn-MN             |
+| Nepali                  | ne-NP             |
+| Norwegian Bokmål        | no-NO             |
+| Odia/Oriya              | or-IN             |
+| Pashto                  | ps-AF             |
+| Polish                  | pl-PL             |
+| Portuguese              | pt-PT             |
+| Portuguese, Brazilian   | pt-BR             |
+| Punjabi                 | pa-IN             |
+| Romanian                | ro-RO             |
+| Russian                 | ru-RU             |
+| Serbian                 | sr-RS             |
+| Sinhala                 | si-LK             |
+| Slovak                  | sk-SK             |
+| Slovenian               | sl-SI             |
+| Somali                  | so-SO             |
+| Spanish                 | es-ES             |
+| Spanish, Mexican        | es-MX             |
+| Spanish, US             | es-US             |
+| Sundanese               | su-ID             |
+| Swahili, Kenya          | sw-KE             |
+| Swahili, Burundi        | sw-BI             |
+| Swahili, Rwanda         | sw-RW             |
+| Swahili, Tanzania       | sw-TZ             |
+| Swahili, Uganda         | sw-UG             |
+| Swedish                 | sv-SE             |
+| Tagalog/Filipino        | tl-PH             |
+| Tamil                   | ta-IN             |
+| Tatar                   | tt-RU             |
+| Telugu                  | te-IN             |
+| Thai                    | th-TH             |
+| Turkish                 | tr-TR             |
+| Ukrainian               | uk-UA             |
+| Uyghur                  | ug-CN             |
+| Uzbek                   | uz-UZ             |
+| Vietnamese              | vi-VN             |
+| Welsh                   | cy-WL             |
+| Wolof                   | wo-SN             |
+| Zulu                    | zu-ZA             |
+
